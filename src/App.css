@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,57 @@
   to {
     transform: rotate(360deg);
   }
+
+  sx={{ 
+          display: 'flex', 
+          flexDirection: 'row', 
+          border: '1px dashed',
+          marginBottom:'1rem',
+          borderRadius:'10px'
+          }}
+} */
+
+.card-container{
+  display: grid;
+  flex-direction: row;         
+  border: '1px dashed';
+  margin-Bottom: 1rem;
+  border-Radius: 10px;
+  align-items: center;
+}
+
+.img-container{
+  width: 15rem;
+  height: 150px;
+  margin: 10px;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.products-container{
+  width: 90%;
+  display: inline-table;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin: 50px;
+}
+
+.mdl-container{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.product-name:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.btm-container{
+  display: flex;
+  justify-content: flex-end;
+}
+.sub-container{
+  color:black;
 }
